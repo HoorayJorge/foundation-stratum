@@ -40,7 +40,7 @@ const Algorithms = {
 
   // Allium Algorithm
   'allium': {
-    multiplier: Math.pow(2, 7),
+    multiplier: Math.pow(2, 7.5),
     diff: parseInt('0x00000000ffff0000000000000000000000000000000000000000000000000000'),
     hash: function(){
       return function(){
